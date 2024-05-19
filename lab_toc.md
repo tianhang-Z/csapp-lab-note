@@ -22,7 +22,11 @@
 
   学习汇编  数据访问（寻址方式 出入栈） 算数和逻辑运算 控制（条件码 跳转 循环 switch[跳转表]） 程序运行时（栈帧 转移控制 参数的传递 局部变量的存储）  数组的分配和访问（指针运算） 数据结构（struct union 数据对齐）  
 
+  c代码与汇编代码的对应关系
+
   GDB调试
+
+  gcc从c到可执行文件
 
   > A "binary bomb" is a program provided to students as an object code file. When run, it prompts the user to type in 6 different strings. If any of these is incorrect, the bomb "explodes," printing an error message and logging the event on a grading server. Students must "defuse" their own unique bomb by disassembling and reverse engineering the program to determine what the 6 strings should be. The lab teaches students to understand assembly language, and also forces them to learn how to use a debugger. It's also great fun. A legendary lab among the CMU undergrads.
   >
