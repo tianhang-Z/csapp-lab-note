@@ -20,6 +20,8 @@
 
 - *Bomb Lab*
 
+  对应第三章
+
   学习汇编  数据访问（寻址方式 出入栈） 算数和逻辑运算 控制（条件码 跳转 循环 switch[跳转表]） 程序运行时（栈帧 转移控制 参数的传递 局部变量的存储）  数组的分配和访问（指针运算） 数据结构（struct union 数据对齐）  
 
   c代码与汇编代码的对应关系
@@ -33,6 +35,8 @@
   > Here's a [Linux/x86-64 binary bomb](http://csapp.cs.cmu.edu/3e/bomb.tar) that you can try out for yourself. The feature that notifies the grading server has been disabled, so feel free to explode this bomb with impunity. If you're an instructor with a CS:APP account, then you can download the [solution](http://csapp.cs.cmu.edu/im/bomb-solution.txt).
 
 - *Attack Lab*
+
+  对应第三章后面
 
   缓存区溢出 对抗缓存区溢出（栈随机化 栈破坏检测）
 
@@ -52,6 +56,14 @@
 
 - *Architecture Lab*
 
+  对应第四章
+
+  自定义的Y86-64语言  hcl语言（描述处理器对指令的处理流程）
+
+  实现seq处理器和pipe处理器 （其中涉及指令执行的五个阶段   五个阶段划分使得指令全部可以用相似的流程执行）
+
+  pipe处理器的数据/控制冒险 触发条件 处理措施（暂停 bubble 转发）
+
   > Note: Updated to Y86-64 for CS:APP3e.
   >
   > Students are given a small default Y86-64 array copying function and a working pipelined Y86-64 processor design that runs the copy function in some nominal number of clock cycles per array element (CPE). The students attempt to minimize the CPE by modifying both the function and the processor design. This gives the students a deep appreciation for the interactions between hardware and software.
@@ -70,19 +82,27 @@
 
 - *Cache Lab*
 
+  对应第六章
+
   > At CMU we use this lab in place of the Performance Lab. Students write a general-purpose cache simulator, and then optimize a small matrix transpose kernel to minimize the number of misses on a simulated cache. This lab uses the Valgrind tool to generate address traces.
   >
   > Note: This lab must be run on a 64-bit x86-64 system.
 
 - *Performance Lab*
 
+  对应第五章 可略
+
   > Students optimize the performance of an application kernel function such as convolution or matrix transposition. This lab provides a clear demonstration of the properties of cache memories and gives them experience with low-level program optimization.
 
 - *Shell Lab*
 
+  对应第八章
+
   > Students implement their own simple Unix shell program with job control, including the ctrl-c and ctrl-z keystrokes, fg, bg, and jobs commands. This is the students' first introduction to application level concurrency, and gives them a clear idea of Unix process control, signals, and signal handling.
 
 - *Malloc Lab*
+
+  对应第九章
 
   Students implement their own versions of malloc, free, and realloc. This lab gives students a clear understanding of data layout and organization, and requires them to evaluate different trade-offs between space and time efficiency. One of our favorite labs. When students finish this one, they really understand pointers!
 
